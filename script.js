@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
     document.querySelector(".advice_box").style.opacity = "1";
   }, 5000);
 
-  document.querySelector(".advice_box").style.display = "block";
+  document.querySelector(".advice_box").style.display = "flex";
 });
 const advice = document.querySelector(".advice");
 const btnCont = document.querySelector(".btn-cont");
